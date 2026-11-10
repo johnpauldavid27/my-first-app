@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:host {
+  display: block;
+  min-height: 100vh;
+  padding: 48px 16px;
+  background: #ffffff;
+}
+
+.resume {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 8px;
+  color: #222222;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+/* Header */
+.intro {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: left;
+}
+
+.intro h1 {
+  margin: 0 0 6px;
+  color: #1f7a2b;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.intro p {
+  margin: 0;
+  color: #666666;
+  font-size: 0.95rem;
+  overflow-wrap: anywhere;
+}
+
+.intro a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.intro a:hover {
+  color: #1f7a2b;
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+}
+
+section h2 {
+  margin: 0 0 12px;
+  color: #1f7a2b;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+section p {
+  margin: 0;
+  color: #444444;
+}
+
+/* Technical Proficiencies */
+.proficiencies .category {
+  margin-bottom: 16px;
+}
+
+.proficiencies .category h3 {
+  margin: 0 0 6px;
+  color: #222222;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.proficiencies ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.proficiencies li {
+  padding: 2px 12px;
+  color: #444444;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* Interaction */
+.interaction p {
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 8px 20px;
+  background: transparent;
+  color: #1f7a2b;
+  border: 1px solid #1f7a2b;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+button:hover {
+  background: #1f7a2b;
+  color: #ffffff;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  :host {
+    padding: 28px 12px;
+  }
+
+  .intro h1 {
+    font-size: 1.6rem;
+  }
+
+  section {
+    margin: 32px 0;
+  }
+}

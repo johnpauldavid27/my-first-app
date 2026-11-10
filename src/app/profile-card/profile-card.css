@@ -1,0 +1,32 @@
+.profile-card {
+  margin: 32px 0;
+  padding: 20px 0;
+  background: transparent;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.profile-card h2 {
+  margin: 0 0 10px;
+  color: #1f7a2b;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.profile-card p {
+  margin: 0 0 12px;
+  color: #444444;
+  line-height: 1.7;
+}
+
+.tag {
+  display: inline-block;
+  margin: 0 6px 6px 0;
+  padding: 2px 12px;
+  color: #444444;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
